@@ -69,22 +69,22 @@
 
 - Planned date: Feb. 2018
 - Location: Amsterdam, Netherlands
-- Contact: Marvin Visser (marvin@frontenddevelopermeetups.com)
+- [Contact](mailto:marvin@frontenddevelopermeetups.com)
 
 ### VueConf US 2018
 
 - Planned date: Mar. 2018
 - Location: New Orleans, Louisiana, USA
-- Contact: Pratik Patel (pratik.r.patel@gmail.com)
+- [Contact](mailto:pratik.r.patel@gmail.com)
 
 ### Vue.js London 2018
 
 - Planned date: mid 2018
 - Location: London
-- Contact: [Blake Newman](https://twitter.com/blakenewman)
+- [Contact](mailto:organisers@vuejs.london)
 
 ### VueConf EU 2018
 
 - Planned date: late 2018
 - Location: Wrocław, Poland
-- Contact: Damien Dulisz (damien.dulisz@monterail.com)
+- [Contact](mailto:damien.dulisz@monterail.com)
