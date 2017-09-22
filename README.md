@@ -81,10 +81,10 @@
 
 - Planned date: mid 2018
 - Location: London
-- [Contact](mailto:organisers@vuejs.london)
+- [Contact](mailto:team@vuejs.london)
 
 ### VueConf EU 2018
 
 - Planned date: late 2018
 - Location: Wrocław, Poland
-- [Contact](mailto:damien.dulisz@monterail.com)
+- [Contact](mailto:support@vueconf.eu)
