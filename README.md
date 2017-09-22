@@ -45,7 +45,7 @@
 - **Lead:** @michalsnik, @mysticatea
 - [Discussions](https://github.com/vuejs/eslint-plugin-vue/issues)
 
-### Bundler-agnostic Single-File Component Compiler
+### vue-component-compiler
 
 - **Goal:** extract single-file component compilation logic from `vue-loader` into a bundle-agnostic package so that it can be reused in all tooling in the ecosystem.
 - **Lead:** @znck, @eddyerburgh
