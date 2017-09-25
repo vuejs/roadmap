@@ -11,7 +11,7 @@
 - [TypeScript improvements](https://medium.com/the-vue-point/upcoming-typescript-changes-in-vue-2-5-e9bd7e2ecf08)
 - Various improvements to be announced on release
 
-### 3.0
+### 2.x-next
 
 - **Lead:** @yyx990803
 - Planned release: early 2018
