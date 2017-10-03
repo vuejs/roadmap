@@ -55,7 +55,7 @@
 
 - **Goal:** offer code style recommendations for teams seeking consistency.
 - **Lead:** @chrisvfritz
-- [WIP branch](https://github.com/vuejs/vuejs.org/tree/style-guide)
+- [Beta](https://vuejs.org/v2/style-guide/)
 
 ### Cookbook
 
