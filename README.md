@@ -21,8 +21,8 @@
 
 ### Long Term Backlog
 
+- Leveraging more from Web Components when it reaches universal adoption in major browsers (e.g. CLI command that compiles `*.vue` files into vanilla web components).
 - Built-in class-based API when class properties and decorators reach stage 4
-- Leveraging more from Web Components when it reaches universal adoption in major browsers
 - Leveraging Web Assembly when it gains better DOM access capabilities
 
 ## Ongoing Ecosystem Initiatives
