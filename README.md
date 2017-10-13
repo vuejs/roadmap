@@ -4,22 +4,15 @@
 
 ## Core
 
-### 2.5
-
-- **Lead:** @yyx990803
-- Planned release: early October 2017
-- [TypeScript improvements](https://medium.com/the-vue-point/upcoming-typescript-changes-in-vue-2-5-e9bd7e2ecf08)
-- Various improvements to be announced on release
-
 ### 2.x-next
 
 - **Lead:** @yyx990803
 - Planned release: early 2018
-- Will be targeting evergreen browsers only
+- Will be targeting evergreen browsers only in order to leverage native ES2015 features
 - Reactivity system will be rewritten with Proxies with various improvements
 - No major breaking changes; will be maintained in parallel to 2.x with feature parity
 
-### Long Term Backlog
+### Backlog
 
 - Leveraging more from Web Components when it reaches universal adoption in major browsers (e.g. CLI command that compiles `*.vue` files into vanilla web components).
 - Built-in class-based API when class properties and decorators reach stage 4
