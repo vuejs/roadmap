@@ -58,6 +58,12 @@
 
 ## Events
 
+### Vue.js Hamburg
+
+- Planned date: 21 Nov. 2017
+- Location: Hamburg, Germany
+- [Details & Contact](https://www.meetup.com/de-DE/Hamburg-Vue-js-Meetup/events/244168277)
+
 ### Vue.js Amsterdam
 
 - Planned date: Feb. 2018
