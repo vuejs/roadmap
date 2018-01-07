@@ -42,10 +42,9 @@
 
 ### eslint-plugin-vue 4.0
 
-- **Status:** shipped!
+- **Status:** shipped! ([Release notes](https://github.com/vuejs/eslint-plugin-vue/releases))
 - **Goal:** provide an official eslint plugin with capability of linting single file components (including template syntax errors)
 - **Lead:** @michalsnik, @mysticatea
-- [Discussions](https://github.com/vuejs/eslint-plugin-vue/issues)
 
 ### vue-component-compiler
 
