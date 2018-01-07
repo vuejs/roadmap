@@ -28,36 +28,42 @@
 
 ### vue-test-utils
 
+- **Status:** beta
 - **Goal:** provide an official library and guide for unit testing Vue components.
 - **Lead:** @eddyerburgh
 - [Design thread](https://github.com/vuejs/vue-test-utils/issues/1)
 
-### vue-cli 3.0 redesign
+### vue-cli 3.0
 
+- **Status:** in development
 - **Goal:** upgrade `vue-cli` to address project upgrade issues and provide even smoother DX.
 - **Lead:** @yyx990803, @egoist
 - [Design thread](https://github.com/vuejs/vue-cli/issues/589)
 
-### eslint-plugin-vue
+### eslint-plugin-vue 4.0
 
+- **Status:** shipped!
 - **Goal:** provide an official eslint plugin with capability of linting single file components (including template syntax errors)
 - **Lead:** @michalsnik, @mysticatea
 - [Discussions](https://github.com/vuejs/eslint-plugin-vue/issues)
 
 ### vue-component-compiler
 
+- **Status:** in development
 - **Goal:** extract single-file component compilation logic from `vue-loader` into a bundle-agnostic package so that it can be reused in all tooling in the ecosystem.
 - **Lead:** @znck, @eddyerburgh
 - [Design thread](https://github.com/vuejs/vue-component-compiler/issues/28)
 
 ### Style Guide
 
+- **Status:** beta
 - **Goal:** offer code style recommendations for teams seeking consistency.
 - **Lead:** @chrisvfritz
 - [Beta](https://vuejs.org/v2/style-guide/)
 
 ### Cookbook
 
+- **Status:** in development
 - **Goal:** offer solutions to commonly encountered scenarios
 - **Lead:** @chrisvfritz
 - Planned to be started November 2017
