@@ -7,13 +7,13 @@
 ### 2.6
 
 - **Lead:** @yyx990803
-- Planned release: Jan/Feb 2018
+- Planned release: March 2018
 - Various improvements regarding error handling, functional components, SSR
 
 ### 2.x-next
 
 - **Lead:** @yyx990803
-- Planned release: March 2018
+- Planned release: April/May 2018
 - Will be targeting evergreen browsers only in order to leverage native ES2015 features
 - Reactivity system will be rewritten with Proxies with various improvements
 - No major breaking changes; will be maintained in parallel to 2.x with feature parity
