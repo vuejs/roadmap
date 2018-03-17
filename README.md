@@ -35,10 +35,10 @@
 
 ### vue-cli 3.0
 
-* **Status:** in development
+* **Status:** beta
 * **Goal:** upgrade `vue-cli` to address project upgrade issues and provide even smoother DX.
-* **Lead:** @yyx990803, @egoist
-* [Design thread](https://github.com/vuejs/vue-cli/issues/589)
+* **Lead:** @yyx990803
+* [Beta docs](https://github.com/vuejs/vue-cli/tree/dev/docs)
 
 ### eslint-plugin-vue 4.0
 
@@ -81,8 +81,7 @@
 * Location: London
 * [Contact](mailto:team@vuejs.london)
 
-### VueConf EU 2018
+### VueFes Tokyo 2018
 
 * Planned date: late 2018
-* Location: Wrocław, Poland
-* [Contact](mailto:support@vueconf.eu)
+* Location: Tokyo, Japan
