@@ -81,7 +81,7 @@
 * Location: London
 * [Contact](mailto:team@vuejs.london)
 
-### VueFes Tokyo 2018
+### VueFes Japan 2018
 
-* Planned date: late 2018
+* Planned date: Nov. 2018
 * Location: Tokyo, Japan
