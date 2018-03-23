@@ -85,4 +85,4 @@
 
 * Planned date: Nov 3. 2018
 * Location: Tokyo, Japan
-* Site: https://vuefes.jp
+* [Website](https://vuefes.jp)
