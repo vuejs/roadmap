@@ -83,5 +83,6 @@
 
 ### VueFes Japan 2018
 
-* Planned date: Nov. 2018
+* Planned date: Nov 3. 2018
 * Location: Tokyo, Japan
+* Site: https://vuefes.jp
