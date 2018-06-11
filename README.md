@@ -31,6 +31,8 @@
 - Better TypeScript inference (may require API redesign)
 - Accompanying DevTools update
 
+- **Actionable: kickoff public design thread**
+
 ### Backlog
 
 * Built-in class-based API when class properties and decorators reach stage 4
@@ -44,7 +46,7 @@ We plan to drop feature requests from core repo's (`vuejs/vue`)'s issue list soo
 
 After 2.6, all non-trivial additions or changes to the core API will go through the RFC process as well, even if it comes from core team members.
 
-- Actionable: setup RFC repo and guidelines
+- **Actionable: setup RFC repo and guidelines**
 
 ## Release Management
 
@@ -60,7 +62,7 @@ After 2.6 we will switch to a time-based release schedule for minor releases. Th
 
 - **Patch**: as often as necessary.
 
-- Actionable: release schedule visualization page on vuejs.org
+- **Actionable: release schedule visualization page on vuejs.org**
 
 ### Release channels and LTS
 
@@ -74,13 +76,13 @@ After 2.6 we will switch to a time-based release schedule for minor releases. Th
 
 - Every time a new major is released, the last minor in the previous major automatically becomes LTS for 18 months, receiving bug fixes and security patches. Then it becomes maintenance mode (security patches only) for another 18 months before entering end of life.
 
-- Actionable: edge build automatic release system
+- **Actionable: edge build automatic release system**
 
 ### Regression Testing
 
 We plan to invest time in developing a more robust regression testing system to ensure we don't accidentally break production apps in patch and minor releases. The system will run integration tests on major libraries / frameworks in the ecosystem and other non-trivial codebases to ensure stability.
 
-- Actionable: regression testing system
+- **Actionable: regression testing system**
 
 ## Tooling
 
