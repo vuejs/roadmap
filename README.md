@@ -36,8 +36,6 @@
 * Built-in class-based API when class properties and decorators reach stage 4
 * Leveraging Web Assembly when it gains better DOM access capabilities
 
-## Official Libraries
-
 ## Governance
 
 ### RFC process
