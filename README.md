@@ -1,83 +1,114 @@
 # Vue Project Roadmap
 
-[Core Team](https://vuejs.org/v2/guide/team.html)
+> This document outlines work that is currently being worked on and things we plan to work on next. The general answer to "when will X be done?" is "when it's ready," as we believe at this particular stage in Vue's lifecycle, it's more important to ensure shipping stable and solid code rather than rushing out new features. That said, we do value feedback from the community to help us better understand user needs and adjust priorities.
 
 ## Core
 
 ### 2.6
 
-* **Lead:** @yyx990803
-* Planned release: March 2018
 * Various improvements regarding error handling, functional components, SSR
 
 ### 2.x-next
 
-* **Lead:** @yyx990803
-* Planned release: April/May 2018
 * Will be targeting evergreen browsers only in order to leverage native ES2015 features
 * Reactivity system will be rewritten with Proxies with various improvements
 * No major breaking changes; will be maintained in parallel to 2.x with feature parity
 
+### 3.x
+
+- Will be using TypeScript. For internal implementation only. Does NOT affect ES users, but should improve TS integration for TS users.
+- Decouple internals into separate packages (monorepo) each with its own defined API contracts.
+  - Individual packages are smaller in scope and more friendly for contributions
+  - Opens up custom renderer API for rendering to non-web targets, e.g. NativeScript, Weex, WeChat.
+  - Possibility to swap the observer / scheduler with different underlying implementations. E.g. ES5 observer for IE11 compatibility, alternative scheduler to leverage `requestIdleCallback` for time-slicing.
+- High level API remains as close to 2.x as possible. Breaking changes only made where necessary, and will be communicated through the RFC process.
+
+### Vuex 4.x
+
+- Simplify usage
+  - Getting rid of `mapXXX` helpers via scoped-slot based store consumer component
+  - Getting rid of the need for separating actions and mutations
+- Better TypeScript inference (may require API redesign)
+- Accompanying DevTools update
+
 ### Backlog
 
-* Leveraging more from Web Components when it reaches universal adoption in major browsers (e.g. CLI command that compiles `*.vue` files into vanilla web components).
 * Built-in class-based API when class properties and decorators reach stage 4
 * Leveraging Web Assembly when it gains better DOM access capabilities
 
-## Ongoing Ecosystem Initiatives
+## Official Libraries
+
+## Governance
+
+### RFC process
+
+We plan to drop feature requests from core repo's (`vuejs/vue`)'s issue list soon. New proposals for landing features into core must go through a standard RFC process which helps the contributor to better outline the considerations and tradeoffs involved in adding a new feature.
+
+After 2.6, all non-trivial additions or changes to the core API will go through the RFC process as well, even if it comes from core team members.
+
+- Actionable: setup RFC repo and guidelines
+
+## Release Management
+
+### Release Schedule
+
+In the past we've been trying to group-up new features to be released together in a new minor release so that each minor feels more "feature-packed". But over time we've found that such a release schedule is less predictable and can often delay features that are ready from being landed in a timely fashion.
+
+After 2.6 we will switch to a time-based release schedule for minor releases. The new release scheme
+
+- **Major**: will be announced at least 6 months before release. All breaking changes will be communicated before through the RFC process. Accompanying upgrade guide and tooling will be shipped along with the release.
+
+- **Minor**: every 3 months, as long as there are new features.
+
+- **Patch**: as often as necessary.
+
+- Actionable: release schedule visualization page on vuejs.org
+
+### Release channels and LTS
+
+- Every major will go through alpha / beta / RC stages as needed.
+
+- Every minor will go through a 3 week beta / 1 week RC process.
+
+- A weekly unstable release (edge) to be automatically cut from latest commit with passing CI build on `dev` branch.
+
+- The current active major will always be active maintained.
+
+- Every time a new major is released, the last minor in the previous major automatically becomes LTS for 18 months, receiving bug fixes and security patches. Then it becomes maintenance mode (security patches only) for another 18 months before entering end of life.
+
+- Actionable: edge build automatic release system
+
+### Regression Testing
+
+We plan to invest time in developing a more robust regression testing system to ensure we don't accidentally break production apps in patch and minor releases. The system will run integration tests on major libraries / frameworks in the ecosystem and other non-trivial codebases to ensure stability.
+
+- Actionable: regression testing system
+
+## Tooling
+
+### vue-cli 3.0
+
+* **Status:** RC
+* **Goal:** upgrade `vue-cli` to address project upgrade issues and provide even smoother DX.
+* [Docs](https://cli.vuejs.org)
 
 ### vue-test-utils
 
 * **Status:** beta
 * **Goal:** provide an official library and guide for unit testing Vue components.
 * **Lead:** @eddyerburgh
-* [Design thread](https://github.com/vuejs/vue-test-utils/issues/1)
+* [Docs](https://vue-test-utils.vuejs.org/)
 
-### vue-cli 3.0
+### DevTools Refactor
 
-* **Status:** beta
-* **Goal:** upgrade `vue-cli` to address project upgrade issues and provide even smoother DX.
-* **Lead:** @yyx990803
-* [Beta docs](https://github.com/vuejs/vue-cli/tree/dev/docs)
-
-### eslint-plugin-vue 4.0
-
-* **Status:** shipped! ([Release notes](https://github.com/vuejs/eslint-plugin-vue/releases))
-* **Goal:** provide an official eslint plugin with capability of linting single file components (including template syntax errors)
-* **Lead:** @michalsnik, @mysticatea
-
-### vue-component-compiler
-
-* **Status:** in development
-* **Goal:** extract single-file component compilation logic from `vue-loader` into a bundle-agnostic package so that it can be reused in all tooling in the ecosystem.
-* **Lead:** @znck, @eddyerburgh
-* [Design thread](https://github.com/vuejs/vue-component-compiler/issues/28)
-
-### Style Guide
-
-* **Status:** beta
-* **Goal:** offer code style recommendations for teams seeking consistency.
-* **Lead:** @chrisvfritz
-* [Beta](https://vuejs.org/v2/style-guide/)
-
-### Cookbook
-
-* **Status:** beta
-* **Goal:** offer solutions to commonly encountered scenarios
-* **Lead:** @sdras
-* [Beta](https://vuejs.org/v2/cookbook/)
+- **Status:** planned
+- **Lead:** @Akryum
 
 ## Upcoming Events
 
-### VueConf US 2018
-
-* Planned date: Mar. 2018
-* Location: New Orleans, Louisiana, USA
-* [Contact](mailto:pratik.r.patel@gmail.com)
-
 ### Vue.js London 2018
 
-* Planned date: mid 2018
+* Planned date: late 2018
 * Location: London
 * [Contact](mailto:team@vuejs.london)
 
