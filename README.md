@@ -108,9 +108,9 @@ We plan to invest time in developing a more robust regression testing system to 
 
 ### Vue.js London 2018
 
-* Planned date: late 2018
+* Planned date: Sep 21. 2018
 * Location: London
-* [Contact](mailto:team@vuejs.london)
+* [Website](https://vuejs.london)
 
 ### Vue Fes Japan 2018
 
