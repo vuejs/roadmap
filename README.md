@@ -106,6 +106,12 @@ We plan to invest time in developing a more robust regression testing system to 
 
 ## Upcoming Events
 
+### Vue.js Summit 2018
+
+* Planned date: Aug 31 and Sep 1. 2018
+* Location: São Paulo, Brazil
+* [Website](https://vuejssummit.com/en)
+
 ### Vue.js London 2018
 
 * Planned date: Sep 21. 2018
