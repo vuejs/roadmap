@@ -123,3 +123,9 @@ We plan to invest time in developing a more robust regression testing system to 
 * Planned date: Nov 3. 2018
 * Location: Tokyo, Japan
 * [Website](https://vuefes.jp)
+
+### Vue.js Amsterdam 2019
+
+* Planned date: Feb 14-15. 2019
+* Location: Amsterdam, Netherlands
+* [Website](https://www.vuejs.amsterdam)
