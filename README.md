@@ -124,6 +124,12 @@ We plan to invest time in developing a more robust regression testing system to 
 * Location: Tokyo, Japan
 * [Website](https://vuefes.jp)
 
+### VueConf TO 2018
+
+* Planned date: Nov 14-16. 2018
+* Location: Toronto, Canada
+* [Website](https://vuetoronto.com)
+
 ### Vue.js Amsterdam 2019
 
 * Planned date: Feb 14-15. 2019
