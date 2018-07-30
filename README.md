@@ -130,6 +130,12 @@ We plan to invest time in developing a more robust regression testing system to 
 * Location: Toronto, Canada
 * [Website](https://vuetoronto.com)
 
+### Vue.js Roadtrip Berlin 2018
+
+* Planned date: Nov 23. 2018
+* Location: Berlin, Germany
+* [Website](https://www.vuejsroadtrip.com)
+
 ### Vue.js Amsterdam 2019
 
 * Planned date: Feb 14-15. 2019
