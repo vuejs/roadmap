@@ -134,7 +134,7 @@ We plan to invest time in developing a more robust regression testing system to 
 
 * Planned date: Nov 23. 2018
 * Location: Berlin, Germany
-* [Website](https://www.vuejsroadtrip.com)
+* [Website](https://www.eventbrite.co.uk/e/vuejs-roadtrip-berlin-tickets-43925232553)
 
 ### Vue.js Amsterdam 2019
 
