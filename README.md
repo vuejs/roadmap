@@ -88,7 +88,7 @@ We plan to invest time in developing a more robust regression testing system to 
 
 ### vue-cli 3.0
 
-* **Status:** RC
+* **Status:** stable
 * **Goal:** upgrade `vue-cli` to address project upgrade issues and provide even smoother DX.
 * [Docs](https://cli.vuejs.org)
 
