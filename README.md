@@ -115,6 +115,12 @@ We plan to invest time in developing a more robust regression testing system to 
 * Location: London
 * [Website](https://vuejs.london)
 
+### Connect.tech 2018
+
+* Planned date: Oct 17-19 2018
+* Location: Atlanta
+* [Website](http://connect.tech/)
+
 ### Vue Fes Japan 2018
 
 * Planned date: Nov 3. 2018
