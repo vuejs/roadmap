@@ -99,9 +99,10 @@ We plan to invest time in developing a more robust regression testing system to 
 * **Lead:** @eddyerburgh
 * [Docs](https://vue-test-utils.vuejs.org/)
 
-### DevTools Refactor
+### DevTools 5.0
 
-- **Status:** planned
+- **Status:** beta
+- **Goal:** new features like Routing, Performance benchmarks and much more.
 - **Lead:** @Akryum
 
 ## Upcoming Events
