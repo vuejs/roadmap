@@ -14,6 +14,8 @@
 * Reactivity system will be rewritten with Proxies with various improvements
 * No major breaking changes; will be maintained in parallel to 2.x with feature parity
 
+*Note: this means there will be two releases for each new minor version of Vue: 2.x which supports IE and 2.x-next which does not. This also means we are not dropping IE support.*
+
 ### 3.x
 
 - Will be using TypeScript. For internal implementation only. Does NOT affect ES users, but should improve TS integration for TS users.
