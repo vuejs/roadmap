@@ -109,12 +109,6 @@ We plan to invest time in developing a more robust regression testing system to 
 
 ## Upcoming Events
 
-### Vue.js London 2018
-
-* Planned date: Sep 21. 2018
-* Location: London
-* [Website](https://vuejs.london)
-
 ### Connect.tech 2018
 
 * Planned date: Oct 17-19 2018
