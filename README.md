@@ -127,6 +127,12 @@ We plan to invest time in developing a more robust regression testing system to 
 * Location: Amsterdam, Netherlands
 * [Website](https://www.vuejs.amsterdam)
 
+### VueConf US 2019
+
+* Planned date: Mar 25-27. 2019
+* Location: Tampa, Florida, USA
+* [Website](http://us.vuejs.org/)
+
 ### Vue Fes Japan 2019
 
 * Planned in: Autumn
