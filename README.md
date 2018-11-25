@@ -109,18 +109,6 @@ We plan to invest time in developing a more robust regression testing system to 
 
 ## Upcoming Events
 
-### VueConf TO 2018
-
-* Planned date: Nov 14-16. 2018
-* Location: Toronto, Canada
-* [Website](https://vuetoronto.com)
-
-### Vue.js Roadtrip Berlin 2018
-
-* Planned date: Nov 23. 2018
-* Location: Berlin, Germany
-* [Website](https://www.eventbrite.co.uk/e/vuejs-roadtrip-berlin-tickets-43925232553)
-
 ### Vue.js Amsterdam 2019
 
 * Planned date: Feb 14-15. 2019
