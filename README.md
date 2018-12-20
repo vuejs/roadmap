@@ -6,6 +6,7 @@
 
 ### 2.6
 
+* [GitHub Project](https://github.com/vuejs/vue/projects/4)
 * Various improvements regarding error handling, functional components, SSR
 
 ### 2.x-next
@@ -18,6 +19,8 @@
 
 ### 3.x
 
+- [Announcement blog post](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf)
+- [Updates Slides (Nov 2018)](https://docs.google.com/presentation/d/1yhPGyhQrJcpJI2ZFvBme3pGKaGNiLi709c37svivv0o/edit?usp=sharing)
 - Will be using TypeScript. For internal implementation only. Does NOT affect ES users, but should improve TS integration for TS users.
 - Decouple internals into separate packages (monorepo) each with its own defined API contracts.
   - Individual packages are smaller in scope and more friendly for contributions
