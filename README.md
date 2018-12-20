@@ -80,7 +80,7 @@ After 2.6 we will switch to a time-based release schedule for minor releases. Th
 
 - **Actionable: edge build automatic release system**
 
-### Regression Testing
+### [Regression Testing](https://github.com/vuejs/regression-testing)
 
 We plan to invest time in developing a more robust regression testing system to ensure we don't accidentally break production apps in patch and minor releases. The system will run integration tests on major libraries / frameworks in the ecosystem and other non-trivial codebases to ensure stability.
 
@@ -88,24 +88,24 @@ We plan to invest time in developing a more robust regression testing system to 
 
 ## Tooling
 
-### vue-cli 3.0
+### [vue-cli 3.0](https://github.com/vuejs/vue-cli)
 
 * **Status:** stable
 * **Goal:** upgrade `vue-cli` to address project upgrade issues and provide even smoother DX.
 * [Docs](https://cli.vuejs.org)
 
-### vue-test-utils
+### [vue-test-utils](https://github.com/vuejs/vue-test-utils)
 
 * **Status:** beta
 * **Goal:** provide an official library and guide for unit testing Vue components.
-* **Lead:** @eddyerburgh
+* **Lead:** [@eddyerburgh](https://github.com/eddyerburgh)
 * [Docs](https://vue-test-utils.vuejs.org/)
 
-### DevTools 5.0
+### [DevTools 5.0](https://github.com/vuejs/vue-devtools)
 
 - **Status:** beta
 - **Goal:** new features like Routing, Performance benchmarks and much more.
-- **Lead:** @Akryum
+- **Lead:** [@Akryum](https://github.com/Akryum)
 
 ## Upcoming Events
 
