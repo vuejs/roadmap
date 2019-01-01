@@ -1,5 +1,7 @@
 **This repo has been archived. Please refer to the [Roadmap Project Board](https://github.com/vuejs/vue/projects/6) for the latest roadmap.**
 
+---
+
 # Vue Project Roadmap
 
 > This document outlines work that is currently being worked on and things we plan to work on next. The general answer to "when will X be done?" is "when it's ready," as we believe at this particular stage in Vue's lifecycle, it's more important to ensure shipping stable and solid code rather than rushing out new features. That said, we do value feedback from the community to help us better understand user needs and adjust priorities.
