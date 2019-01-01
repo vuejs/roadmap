@@ -1,4 +1,4 @@
-> This repo has been archived. Please refer to the [Roadmap Project Board](https://github.com/vuejs/vue/projects/6) for the latest roadmap.
+**This repo has been archived. Please refer to the [Roadmap Project Board](https://github.com/vuejs/vue/projects/6) for the latest roadmap.**
 
 # Vue Project Roadmap
 
